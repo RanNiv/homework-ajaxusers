@@ -1,0 +1,13 @@
+
+<div class="container">
+    <div *ngFor="let data of usersData.data" >
+     <div> <span>first_name:</span><span> {{data.first_name}}</span></div>
+     <div> <span>last_name:</span>  <span> {{data.last_name}}</span> <div> 
+      <span>full_name:</span> <span> {{data.first_name}}&nbsp;{{data.last_name}}</span>
+      <div> <img [src]="data.avatar"/></div>
+     
+  
+</div>
+
+
+
